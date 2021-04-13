@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .overflow {
   overflow: hidden;
 }
@@ -9,4 +13,8 @@
 
 .overflow .card-img-top:hover {
   transform: scale(1.5);
+}
+
+.card {
+  box-shadow: 5px 10px 10px 5px rgb(0, 0, 0, 0.7);
 }

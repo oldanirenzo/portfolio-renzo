@@ -1,13 +1,19 @@
+import Footer from "./Footer"
 import Navbar from "./Navbar"
 
+const Layout = ({ children, footer = true, dark = true }) => {
 
-const Layout = ({ children }) => (
-    <>
-        <Navbar />
-        <main className='container py-4'>
+    const bgColor = dark ? '' : 'bg-light'
 
-        {children}
-        </main>
-    </>
-)
+    return (
+        <div className={bgColor}>
+            <Navbar />
+            <main className='container py-4'>
+
+                {children}
+            </main>
+            {footer && <Footer />}
+        </div>
+    )
+}
 export default Layout

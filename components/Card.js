@@ -2,10 +2,6 @@ import React from 'react'
 
 export const Card = (props) => {
 
-    const handlerLink = () => (
-        <a href={props.link} />
-    )
-
 
     return (
         <div>
@@ -20,15 +16,22 @@ export const Card = (props) => {
                     <div className="card-text">
                         {props.description}
                     </div>
-                    {props.link != '' &&
-                        <a href={props.link} target='_blank'>
-                            <button type="button" className="btn btn-outline-warning">Visitame</button>
-                        </a>}
+                    <div className="row pt-2">
+                        <div className="col-6">
+                            {props.link != '' &&
+                                <a href={props.link} target='_blank'>
+                                    <button type="button" className="btn btn-outline-warning">Visitame</button>
+                                </a>}
 
-                    {props.github != '' && 
-                    <a href={props.github} target='_blank'>
-                        <button type="button" className="btn btn-outline-dark">Repositorio</button>
-                        </a>}
+                        </div>
+                        <div className="col-6">
+                            {props.github != '' &&
+                                <a href={props.github} target='_blank'>
+                                    <button type="button" className="btn btn-outline-dark">Repo</button>
+                                </a>}
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div >

@@ -36,7 +36,7 @@ export default function Home() {
         <div className="col-md-4 mt-2">
           <div className="card bg-light text-center text-dark">
             <div className="card-body">
-              <h3>Conocimientos</h3>
+              <h3><b>Conocimientos</b></h3>
               {skills.map(({ id, skill, percentage }) => (
                 <div className="py-3" key={id}>
                   <h5>{skill}</h5>
@@ -52,7 +52,7 @@ export default function Home() {
         <div id='proyectos' className="col-md-8 mt-2">
           <div className="card bg-light text-dark">
             <div className="card-body text-center">
-              <h3>Proyectos</h3>
+              <h3><b>Proyectos</b></h3>
               <div className="row py-3">
                 {projects.map(({ name, description, image, alt, link, github }, index) =>
                   <div className="col-md-4 p-2 ">
@@ -65,7 +65,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/*  */}
       </div>
     </Layout>
   )
