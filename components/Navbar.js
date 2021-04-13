@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 const Navbar = () =>
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
             <Link href="/#">
                 <a className="navbar-brand">Portfolio</a>

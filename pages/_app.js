@@ -1,4 +1,5 @@
 import '../globals.css'
+import 'bootswatch/dist/darkly/bootstrap.min.css'
 import Head from 'next/head'
 
 

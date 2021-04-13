@@ -1,6 +1,5 @@
 import Layout from '../components/Layout'
 import { skills, projects } from '../profile'
-import 'bootswatch/dist/darkly/bootstrap.min.css'
 import { Card } from '../components/Card'
 
 export default function Home() {
