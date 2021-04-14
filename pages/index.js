@@ -31,13 +31,13 @@ export default function Home() {
       </div>
       {/* Skills y Proyectos */}
       {/* Skills */}
-      <div id='conocimientos' className="row p-2">
+      <div id='conocimientos' className="row py-2">
         <div className="col-md-4 mt-2">
-          <div className="card bg-light text-center text-dark">
-            <div className="card-body">
+          <div className="card bg-light text-center text-dark h-100">
+            <div className="card-body ">
               <h3><b>Conocimientos</b></h3>
               {skills.map(({ id, skill, percentage }) => (
-                <div className="py-3" key={id}>
+                <div className="py-4" key={id}>
                   <h5>{skill}</h5>
                   <div className="progress">
                     <div className="progress-bar-striped bg-warning" role="progressbar" style={{ width: `${percentage}%` }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -49,7 +49,7 @@ export default function Home() {
         </div>
         {/* Projects */}
         <div id='proyectos' className="col-md-8 mt-2">
-          <div className="card bg-light text-dark">
+          <div className="card bg-light text-dark h-100">
             <div className="card-body text-center">
               <h3><b>Proyectos</b></h3>
               <div className="row py-3">
