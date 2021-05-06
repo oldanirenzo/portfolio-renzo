@@ -27,7 +27,7 @@ const contacto = () => {
                 </div>
                 <div className="col-md-4 p-3">
                     <div className="card card-body bg-dark text-center text-light h-100">
-                        <img src='/images/whatsapp.jpg' alt="WhatsApp" className='card-img-top img-thumbnail' style={{ height: '60%' }} />
+                        <img src='/images/whatsappLogo.png' alt="WhatsApp" className='card-img-top img-thumbnail' style={{ height: '60%' }} />
                         <h1>WhatsApp</h1>
                         <h5>Mi teléfono: <br />+54 261-6324756</h5>
                         <a

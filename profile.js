@@ -53,6 +53,7 @@ export const skills = [
 
 export const projects = [
     {
+        id: 1,
         name: 'Clima App',
         description: 'Aplicación móvil realizada en React Native la cual devuelve la temperatura, máxima y mínima, otorgadas por la api de OpenWeather.',
         image: 'ClimaApp.jpeg',
@@ -61,6 +62,7 @@ export const projects = [
         github: 'https://github.com/oldanirenzo/React-Native-Clima'
     },
     {
+        id: 2,
         name: 'Héroes App',
         description: ' Página web realizada en el curso de React en Udemy de Fernando Herrera, en la que muestra información de distintos héroes de Marvel y DC.',
         image: 'dc-batman.jpg',
@@ -69,6 +71,7 @@ export const projects = [
         github: 'https://github.com/oldanirenzo/heroes-app'
     },
     {
+        id: 3,
         name: 'Bunker Mensajes',
         description: ' Aplicación android con Java para reenviar el mensaje recibido de uno o varios números, a una lista de números que el usuario crea.',
         image: 'BunkerAlarmas.png',
@@ -77,6 +80,7 @@ export const projects = [
         github: 'https://github.com/oldanirenzo/Bunker_Mensajes'
     },
     {
+        id: 4,
         name: 'Gif Expert App',
         description: ' Página web para buscar gif en la api de Giphy de lo que ingrese el usuario en la barra de búsqueda.',
         image: 'gifSaitama.gif',
@@ -85,6 +89,7 @@ export const projects = [
         github: 'https://github.com/oldanirenzo/react-gifexpertapp'
     },
     {
+        id: 5,
         name: 'Proximamente',
         description: ' Proyecto en estado imaginario por el momento. Vuelva luego para descubrirlo.',
         image: 'deadEnd.jpg',
@@ -93,6 +98,7 @@ export const projects = [
         github: ''
     },
     {
+        id: 6,
         name: 'Proximamente',
         description: ' Proyecto en estado imaginario por el momento. Vuelva luego para descubrirlo.',
         image: 'deadEnd.jpg',
@@ -101,3 +107,4 @@ export const projects = [
         github: ''
     },
 ]
+

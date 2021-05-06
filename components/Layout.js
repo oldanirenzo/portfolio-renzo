@@ -3,6 +3,8 @@ import Navbar from "./Navbar"
 
 const Layout = ({ children, footer = true, dark = true }) => {
 
+    
+
     const bgColor = dark ? '' : 'bg-light'
 
     return (
